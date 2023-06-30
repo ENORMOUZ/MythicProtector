@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "mythicprotector",
+    "name": "MythicProtector",
+    "description": "${description}",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["ENORMOUZ"],
+    "credits": "ENORMOUZ",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.enormouz.mythicprotector.mixins",
+  "refmap": "mixins.mythicprotector.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "entity.MixinEntity",
+    "entity.MixinEntityLivingBase",
+    "entity.MixinEntityPlayer"
+  ],
+  "client": [
+    "entity.MixinAbstractClientPlayer",
+    "entity.MixinEntityPlayerSP"
+  ]
+}

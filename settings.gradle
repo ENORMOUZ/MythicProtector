@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url = "https://maven.minecraftforge.net/" }
+        maven { url = "https://files.minecraftforge.net/maven" }
+        maven { url = "https://repo.essential.gg/repository/maven-public" }
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+    }
+    resolutionStrategy {
+        eachPlugin {
+            switch (requested.id.id) {
+                case "net.minecraftforge.gradle":
+                    useModule("net.minecraftforge.gradle:ForgeGradle:${requested.version}")
+                    break
+            }
+        }
+    }
+}
+
+rootProject.name = "MythicProtector"
