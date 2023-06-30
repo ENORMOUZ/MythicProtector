@@ -1,7 +1,6 @@
 buildscript {
     repositories {
         maven { url = 'https://maven.minecraftforge.net/' }
-        maven { url = "https://repo.essential.gg/repository/maven-public" }
         maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
         mavenCentral()
         gradlePluginPortal()
@@ -21,7 +20,7 @@ plugins {
 
 apply plugin: 'org.spongepowered.mixin'
 
-version = "1.0"
+version = "1.0.0"
 group = "com.enormouz.mythicprotector"
 archivesBaseName = "mythicprotector"
 
@@ -85,10 +84,6 @@ dependencies {
     }
     annotationProcessor 'org.spongepowered:mixin:0.8.3:processor'
     implementation 'org.spongepowered:mixin:0.8.3-SNAPSHOT'
-
-    include "gg.essential:loader-launchwrapper:1.1.3"
-    implementation "gg.essential:essential-1.12.2-forge:12174+g776a77319"
-    embed('gg.essential:loader-launchwrapper:1.1.3')
 
 }
 
