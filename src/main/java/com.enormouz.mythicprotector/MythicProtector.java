@@ -4,7 +4,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod(modid = "mythicprotector", name = "MythicProtector", version = "1.0.0")
+@Mod(modid = "mythicprotector", name = "MythicProtector", version = "1.0.1")
 public class MythicProtector {
     public static final Minecraft mc = Minecraft.getMinecraft();
 

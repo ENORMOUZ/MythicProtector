@@ -14,7 +14,7 @@ public class ChestUtils {
             if (MythicProtector.mc.player.openContainer instanceof ContainerChest) {
                 ContainerChest chest = (ContainerChest) MythicProtector.mc.player.openContainer;
                 String chestName = chest.getLowerChestInventory().getDisplayName().getUnformattedText();
-                if ((chestName.startsWith("Loot Chest") || chestName.contains("Daily Rewards") || chestName.contains("Objective Rewards")) && chest.getLowerChestInventory().getSizeInventory() <= 27) {
+                if ((chestName.startsWith("Loot Chest") || chestName.contains("Daily Rewards") || chestName.contains("Objective Rewards") || chestName.contains("Challenge Rewards")) && chest.getLowerChestInventory().getSizeInventory() <= 27) {
                     for (int i = 0; i < chest.getLowerChestInventory().getSizeInventory(); i++) {
                         ItemStack stack = chest.getLowerChestInventory().getStackInSlot(i);
                         if (isMythic(stack)) {
