@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import java.io.File;
 
-@Mod(modid = "mythicprotector", name = "MythicProtector", version = "1.0.1")
+@Mod(modid = "mythicprotector", name = "MythicProtector", version = "1.0.2")
 public class MythicProtector {
     public static final Minecraft mc = Minecraft.getMinecraft();
     public static Config configFile = Config.INSTANCE;
